@@ -75,7 +75,12 @@ Encore
     //.autoProvidejQuery()
 
     .enableVueLoader()
-    .enablePostCssLoader()
+
+    .enablePostCssLoader((options) => {
+      options.postcssOptions = {
+        config: './postcss.config.js',
+      }
+    })
 ;
 
 const copiedAssetFilenamePattern = Encore.isProduction() ? '[path][name].[hash:8].[ext]' : '[path][name].[ext]'

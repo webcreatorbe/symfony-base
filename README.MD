@@ -3,11 +3,14 @@ Symfony base project
 
 ## What is included in this project?
 
-### Details
+### Features
 
-This project includes a basic file structure for your Symfony project. It is set up to easily use Vue alongside your regular templates.
+This project includes a basic file structure for your Symfony project. It starts from a `symfony/skeleton` installation. Features include:
 
-The project starts from a `symfony/skeleton` installation.
+- Webpack Encore
+- Vue
+- Tailwind
+- Sentry
 
 ### Extra PHP dependencies
 
@@ -23,8 +26,10 @@ The project starts from a `symfony/skeleton` installation.
 ### Node dev dependencies
 - `autoprefixer`
 - `file-loader`
+- `postcss`
 - `postcss-loader`
 - `sass-loader`
+- `tailwind`
 - `vue`
 - `vue-loader`
 - `vue-template-compiler`
@@ -51,3 +56,5 @@ The project starts from a `symfony/skeleton` installation.
 
 - Add PHP code quality tools. PHP CS Fixer seems good, but does it work with PHP8? What about GrumpPHP?
 - Add JS code quality tools. ES lint? What about Vue?
+- https://tailwindcss.com/course/optimizing-for-production
+- https://symfony.com/doc/current/frontend/encore/vuejs.html#runtime-compiler-build

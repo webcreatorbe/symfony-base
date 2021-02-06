@@ -1,0 +1,119 @@
+@import "fonts.css";
+
+@layer base {
+    body {
+        @apply bg-white;
+    }
+
+    p,
+    input,
+    label,
+    select option,
+    li {
+        @apply text-secondary-600;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-bold;
+    }
+
+    h1 {
+        @apply text-secondary-600;
+    }
+
+    h2, h3, h4, h5, h6 {
+        @apply text-gray-700;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-serif;
+    }
+
+    h1 {
+        @apply font-bold;
+    }
+
+    h2, h3, h4, h5 {
+        @apply font-semibold;
+    }
+
+    h1 {
+        @apply text-3xl;
+    }
+
+    h2 {
+        @apply text-2xl;
+    }
+
+    h3 {
+        @apply text-xl;
+    }
+
+    h4 {
+        @apply text-lg;
+    }
+
+    li {
+        @apply list-inside;
+    }
+
+    ul li {
+        @apply list-disc;
+    }
+
+    ol li {
+        @apply list-decimal;
+    }
+
+    a {
+        @apply text-primary-600 underline;
+    }
+
+    a:hover,
+    a:focus {
+        @apply no-underline;
+    }
+
+    /* TABLE */
+
+    table {
+        @apply shadow-sm;
+    }
+
+    th, td {
+        @apply border border-collapse border-gray-300 w-full;
+    }
+
+    td, th {
+        @apply px-3 py-1 bg-white;
+    }
+
+    td {
+        @apply text-gray-800;
+    }
+
+    th {
+        @apply text-blue-900 font-bold;
+    }
+
+    /* ARTICLE */
+
+    article p,
+    article h1,
+    article h2,
+    article h3,
+    article h4,
+    article h5,
+    article h6,
+    article ul,
+    article ol,
+    article table {
+        @apply mb-6;
+    }
+
+    /* NAVIGATION */
+
+    nav ul li {
+        @apply list-none;
+    }
+}
