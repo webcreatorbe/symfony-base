@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+{% set currentRoute = app.request.get('_route') %}
+
+{% block navigation %}
+{% endblock navigation %}
+
+{% block javascripts %}
+    {{ parent() }}
+{% endblock javascripts %}
+
+{% block layout %}
+    {% block content %}{% endblock %}
+    <footer>
+        {% block footer %}
+        {% endblock %}
+    </footer>
+{% endblock layout %}

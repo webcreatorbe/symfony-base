@@ -1,13 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ app.request.locale }}">
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        {% block javascripts %}{% endblock %}
+        {% block meta_tags %}
+            {# TODO: change these! #}
+            <!-- Primary Meta Tags -->
+            <title>{% block meta_tags_title %}{{ 'Symfony Base Project'|trans }}{% endblock meta_tags_title %}</title>
+            <meta name="title" content="{{ block('meta_tags_title') }}">
+            <meta name="description" content="{% block meta_tags_description %}{{ 'Symfony Base Project description'|trans }}{% endblock meta_tags_description %}">
+
+            <!-- Open Graph / Facebook -->
+            <meta property="og:type" content="website">
+            <meta property="og:url" content="{%  block meta_tags_url %}{{ app.request.uri }}{% endblock meta_tags_url %}">
+            <meta property="og:title" content="{{ block('meta_tags_title') }}">
+            <meta property="og:description" content="{{ block('meta_tags_description') }}">
+            <meta property="og:image" content="{% block meta_tags_image %}{{ asset('build/images/meta-image-min.png') }}{% endblock meta_tags_image %}">
+
+            <!-- Twitter -->
+            <meta property="twitter:card" content="summary_large_image">
+            <meta property="twitter:url" content="{{ block('meta_tags_url') }}">
+            <meta property="twitter:title" content="{{ block('meta_tags_title') }}">
+            <meta property="twitter:description" content="{{ block('meta_tags_description') }}">
+            <meta property="twitter:image" content="{{ block('meta_tags_image') }}">
+        {% endblock meta_tags %}
+
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
     </head>
     <body>
-        {% block body %}{% endblock %}
+        {% block navigation %}{% endblock %}
+        {% block layout %}{% endblock %}
     </body>
 </html>

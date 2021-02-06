@@ -19,11 +19,23 @@ The project starts from a `symfony/skeleton` installation.
 
 - `symfony/maker-bundle`
 
-## Necessary file adaptations
+### Node dev dependencies
+- `file-loader`
+- `sass-loader`
+
+## What to do now?
+
+### File changes
 
 - Add details to `.env.acc` and `.env.prod`
 - Change this file to whatever works for you!
 
-## IDE configuration
+### Website Checklist
+
+- Add favicon
+- Add meta tags
+- Make sure cookie consent is given
+
+### IDE configuration
 
 - Enable the Symfony plugin
