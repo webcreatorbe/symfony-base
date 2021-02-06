@@ -12,6 +12,7 @@ The project starts from a `symfony/skeleton` installation.
 ### Extra PHP dependencies
 
 - `doctrine/annotations`
+- `sentry/sentry-symfony`
 - `symfony/twig-bundle`
 - `symfony/webpack-encore-bundle`
 
