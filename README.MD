@@ -7,8 +7,11 @@ Symfony base project
 
 This project includes a basic file structure for your Symfony project. It is set up to easily use Vue alongside your regular templates.
 
-### PHP dependencies
+The project starts from a `symfony/skeleton` installation.
 
+### Extra PHP dependencies
+
+- `doctrine/annotations`
 - `symfony/webpack-encore-bundle`
 
 ### PHP dev dependencies
