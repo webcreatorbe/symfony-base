@@ -39,32 +39,16 @@ This project includes a basic file structure for your Symfony project. It starts
 ### File changes
 
 - Add details to `.env.acc` and `.env.prod`
+- Add your own color palette to `tailwind.config.js`
 - Change this file to whatever works for you!
-
-### Website Checklist
-
-- Favicon
-- Meta tags (https://metatags.io/)
-- SEO (https://seositecheckup.com/)
-- Sitemap and `robots.txt`
-- Cookie consent and other legal stuff (https://www.cookieconsent.com/)
-- Google Analytics or Tag Manager
-- Think of Accessibility (A11Y)
-- Optimize for performance
-- Enable PHP preloading (https://symfony.com/blog/php-preloading-and-symfony)
-- Spam-check mailing (https://www.mail-tester.com/)
-- Configure Sentry
-- Custom error pages
 
 ### IDE configuration
 
 - Enable the Symfony plugin
 
+### Website Checklist
+Make sure to finish the [checklist](./docs/checklist.md)
+
 ## TODO list
 
-- Add PHP code quality tools. PHP CS Fixer seems good, but does it work with PHP8? What about GrumpPHP?
-- Add JS code quality tools. ES lint? What about Vue?
-- https://tailwindcss.com/course/optimizing-for-production
-- https://symfony.com/doc/current/frontend/encore/vuejs.html#runtime-compiler-build
-- Secrets
-- Deployer
+[Check the TODO list](./docs/todo.md)
