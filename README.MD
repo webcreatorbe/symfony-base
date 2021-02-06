@@ -13,6 +13,8 @@ This project includes a basic file structure for your Symfony project. It is set
 
 ### PHP dev dependencies
 
+- `symfony/maker-bundle`
+
 
 ## Necessary file adaptations
 
