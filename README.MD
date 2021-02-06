@@ -21,7 +21,9 @@ The project starts from a `symfony/skeleton` installation.
 - `symfony/maker-bundle`
 
 ### Node dev dependencies
+- `autoprefixer`
 - `file-loader`
+- `postcss-loader`
 - `sass-loader`
 - `vue`
 - `vue-loader`

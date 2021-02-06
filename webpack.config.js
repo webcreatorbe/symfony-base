@@ -75,6 +75,7 @@ Encore
     //.autoProvidejQuery()
 
     .enableVueLoader()
+    .enablePostCssLoader()
 ;
 
 const copiedAssetFilenamePattern = Encore.isProduction() ? '[path][name].[hash:8].[ext]' : '[path][name].[ext]'
