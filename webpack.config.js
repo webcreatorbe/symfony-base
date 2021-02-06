@@ -73,6 +73,8 @@ Encore
 
     // uncomment if you're having problems with a jQuery plugin
     //.autoProvidejQuery()
+
+    .enableVueLoader()
 ;
 
 const copiedAssetFilenamePattern = Encore.isProduction() ? '[path][name].[hash:8].[ext]' : '[path][name].[ext]'

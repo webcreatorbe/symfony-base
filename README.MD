@@ -23,8 +23,11 @@ The project starts from a `symfony/skeleton` installation.
 ### Node dev dependencies
 - `file-loader`
 - `sass-loader`
+- `vue`
+- `vue-loader`
+- `vue-template-compiler`
 
-## What to do now?
+## What to do you need to change?
 
 ### File changes
 
@@ -36,7 +39,13 @@ The project starts from a `symfony/skeleton` installation.
 - Add favicon
 - Add meta tags
 - Make sure cookie consent is given
+- Add Google Analytics or Tag Manager
 
 ### IDE configuration
 
 - Enable the Symfony plugin
+
+## TODO list
+
+- Add PHP code quality tools. PHP CS Fixer seems good, but does it work with PHP8? What about GrumpPHP?
+- Add JS code quality tools. ES lint? What about Vue?

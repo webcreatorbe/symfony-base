@@ -35,7 +35,9 @@
         {% endblock %}
     </head>
     <body>
-        {% block navigation %}{% endblock %}
-        {% block layout %}{% endblock %}
+        <div id="vue-app">
+            {% block navigation %}{% endblock %}
+            {% block layout %}{% endblock %}
+        </div>
     </body>
 </html>

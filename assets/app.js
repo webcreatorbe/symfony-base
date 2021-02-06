@@ -7,3 +7,7 @@
 
 // start the Stimulus application
 import './bootstrap';
+
+// import Vue application
+import './vue/main'
+
