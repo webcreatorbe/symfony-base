@@ -12,12 +12,12 @@ The project starts from a `symfony/skeleton` installation.
 ### Extra PHP dependencies
 
 - `doctrine/annotations`
+- `symfony/twig-bundle`
 - `symfony/webpack-encore-bundle`
 
 ### PHP dev dependencies
 
 - `symfony/maker-bundle`
-
 
 ## Necessary file adaptations
 
