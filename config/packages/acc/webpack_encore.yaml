@@ -1,0 +1,2 @@
+imports:
+  - { resource: '../prod/webpack_encore.yaml' }

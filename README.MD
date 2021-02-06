@@ -15,6 +15,10 @@ This project includes a basic file structure for your Symfony project. It is set
 
 
 ## Necessary file adaptations
+
+- Add details to `.env.acc` and `.env.prod`
+- Change this file to whatever works for you!
+
 ## IDE configuration
 
 - Enable the Symfony plugin
