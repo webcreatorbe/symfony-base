@@ -1,9 +1,10 @@
 {
-    "name": "webcreatorbe/symfony-base",
+    "name": "webcreator/symfony-base",
     "description": "A Symfony base project with, Webpack Encore, Vue, Tailwindcss, ...",
-    "version": "v1.0.1",
+    "version": "v1.0.2",
     "type": "project",
-    "license": "proprietary",
+    "homepage": "https://github.com/webcreatorbe/symfony-base",
+    "license": "MIT",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
